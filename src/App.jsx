@@ -683,7 +683,7 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen bg-stone-100 text-slate-800 p-4 md:p-8 font-sans">
+    <div className="min-h-screen bg-[#efe3d3] text-slate-800 p-4 md:p-8 font-sans">
       <div className="max-w-6xl mx-auto space-y-6">
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
           <div className="flex items-center gap-4 mb-2">
