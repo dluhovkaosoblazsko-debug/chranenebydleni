@@ -1,0 +1,3120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vdbData xmlns="http://vdb.czso.cz/xml/export" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERZE="1.1" JAZYK="cs" xsi:schemaLocation="http://vdb.czso.cz/xml/VdbData.xsd">
+  <pruvodka>
+    <copyright ROK="2026">© Český statistický úřad</copyright>
+    <disclaimer>Poskytovatel neodpovídá za případné škody vzniklé v souvislosti s poskytnutými statistickými informacemi.</disclaimer>
+    <ident>CEN15A1</ident>
+    <nazev>Indexy cen nemovitostí - územní srovnání</nazev>
+    <nastaveniExportu>
+      <parametry>ZVOLENE</parametry>
+      <rozsah>T</rozsah>
+      <definice>A</definice>
+      <atributy>A</atributy>
+      <typDat>A</typDat>
+      <casAktDB>A</casAktDB>
+    </nastaveniExportu>
+    <zdrojoveURI>https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=vystup-objekt&amp;z=T&amp;f=TABULKA&amp;skupId=86&amp;katalog=31782&amp;pvo=CEN15A1&amp;&amp;c=v172~8__RP2023&amp;str=v172&amp;kodjaz=203</zdrojoveURI>
+    <generator>VdbExporty: 1.1.11</generator>
+    <casExportu>2026-04-15T19:08:10</casExportu>
+    <pocetUdaju>160</pocetUdaju>
+  </pruvodka>
+  <metaSlovnik>
+    <ukazatel>
+      <uka ID="u1">
+        <kod>6144</kod>
+        <text>Index cen nemovitostí</text>
+        <definice>Cenový index je podílem dvou průměrných jednotkových kupních cen ze dvou různých časových období.</definice>
+      </uka>
+    </ukazatel>
+    <vecneUpresneni>
+      <element ID="v1">
+        <dim>CASZ</dim>
+        <dimText>Vývoj v čase - základní (bazický) čas</dimText>
+        <ciselnik>7626</ciselnik>
+        <kod>Z</kod>
+        <text>průměr bazického roku</text>
+      </element>
+      <element ID="v2">
+        <dim>DOPFUNKCE</dim>
+        <dimText>Upřesnění funkce - doplňkové</dimText>
+        <ciselnik>7635</ciselnik>
+        <kod>P</kod>
+        <text>podíl (v [%])</text>
+      </element>
+      <element ID="v3">
+        <dim>REPRCEN</dim>
+        <dimText>Reprezentant pro oblast cen</dimText>
+        <ciselnik>5669</ciselnik>
+        <kod>10302</kod>
+        <text>Rodinný dům [m2]</text>
+      </element>
+      <element ID="v4">
+        <dim>REPRCEN</dim>
+        <dimText>Reprezentant pro oblast cen</dimText>
+        <ciselnik>5669</ciselnik>
+        <kod>10602</kod>
+        <text>Byt [m2]</text>
+      </element>
+      <element ID="v5">
+        <dim>ROKVAHSCHEMA</dim>
+        <dimText>Rok váhového schématu</dimText>
+        <ciselnik>7700</ciselnik>
+        <kod>432015432015000</kod>
+        <text>2 015</text>
+        <definice>&lt;2 015; 2 015&gt;</definice>
+      </element>
+      <element ID="v6">
+        <dim>SPFUNKCE</dim>
+        <dimText>Upřesnění funkce - základní</dimText>
+        <ciselnik>7503</ciselnik>
+        <kod>50</kod>
+        <text>index (časový)</text>
+        <definice>VIP</definice>
+      </element>
+    </vecneUpresneni>
+    <mericiJednotka>
+      <element ID="m1">
+        <dim>MJ_SKUTEC</dim>
+        <dimText>Skutečná měřicí jednotka</dimText>
+        <ciselnik>78</ciselnik>
+        <kod>83798</kod>
+        <text>procento</text>
+      </element>
+    </mericiJednotka>
+    <uzemi>
+      <element ID="p1">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3018</kod>
+        <text>Hlavní město Praha</text>
+      </element>
+      <element ID="p2">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3026</kod>
+        <text>Středočeský kraj</text>
+      </element>
+      <element ID="p3">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3034</kod>
+        <text>Jihočeský kraj</text>
+      </element>
+      <element ID="p4">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3042</kod>
+        <text>Plzeňský kraj</text>
+      </element>
+      <element ID="p5">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3051</kod>
+        <text>Karlovarský kraj</text>
+      </element>
+      <element ID="p6">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3069</kod>
+        <text>Ústecký kraj</text>
+      </element>
+      <element ID="p7">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3077</kod>
+        <text>Liberecký kraj</text>
+      </element>
+      <element ID="p8">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3085</kod>
+        <text>Královéhradecký kraj</text>
+      </element>
+      <element ID="p9">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3093</kod>
+        <text>Pardubický kraj</text>
+      </element>
+      <element ID="p10">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3107</kod>
+        <text>Kraj Vysočina</text>
+      </element>
+      <element ID="p11">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3115</kod>
+        <text>Jihomoravský kraj</text>
+      </element>
+      <element ID="p12">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3123</kod>
+        <text>Olomoucký kraj</text>
+      </element>
+      <element ID="p13">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3131</kod>
+        <text>Zlínský kraj</text>
+      </element>
+      <element ID="p14">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>100</ciselnik>
+        <kod>3140</kod>
+        <text>Moravskoslezský kraj</text>
+      </element>
+      <element ID="p15">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>93</ciselnik>
+        <kod>2</kod>
+        <text>Česko bez Hlavního města Prahy</text>
+      </element>
+      <element ID="p16">
+        <dim>VUZEMI</dim>
+        <dimText>V území</dimText>
+        <ciselnik>97</ciselnik>
+        <kod>19</kod>
+        <text>Česká republika</text>
+      </element>
+    </uzemi>
+    <obdobi>
+      <cas ID="c1">
+        <casOd>2023-01-01</casOd>
+        <casDo>2023-03-31</casDo>
+        <bazOd>2010-01-01</bazOd>
+        <bazDo>2010-12-31</bazDo>
+      </cas>
+      <cas ID="c2">
+        <casOd>2023-04-01</casOd>
+        <casDo>2023-06-30</casDo>
+        <bazOd>2010-01-01</bazOd>
+        <bazDo>2010-12-31</bazDo>
+      </cas>
+      <cas ID="c3">
+        <casOd>2023-07-01</casOd>
+        <casDo>2023-09-30</casDo>
+        <bazOd>2010-01-01</bazOd>
+        <bazDo>2010-12-31</bazDo>
+      </cas>
+      <cas ID="c4">
+        <casOd>2023-10-01</casOd>
+        <casDo>2023-12-31</casDo>
+        <bazOd>2010-01-01</bazOd>
+        <bazDo>2010-12-31</bazDo>
+      </cas>
+      <cas ID="c5">
+        <casOd>2023-01-01</casOd>
+        <casDo>2023-12-31</casDo>
+        <bazOd>2010-01-01</bazOd>
+        <bazDo>2010-12-31</bazDo>
+      </cas>
+    </obdobi>
+    <zdrojovaUloha>
+      <zdr ID="z1">
+        <kod>ICENEMO</kod>
+        <text>Index cen nemovitostí</text>
+        <verze>1600200</verze>
+        <verzeText>4. čtvrtletní (říjen, listopad, prosinec) zpracování - 2. verze</verzeText>
+        <obdobiOd>2023-01-01</obdobiOd>
+        <obdobiDo>2023-12-31</obdobiDo>
+      </zdr>
+    </zdrojovaUloha>
+    <atributy>
+      <atr ID="a1">
+        <akronym>KONV_TEP_ORI </akronym>
+        <text>Záznam o konverzi popisu hodnoty</text>
+        <typ>T</typ>
+      </atr>
+    </atributy>
+  </metaSlovnik>
+  <data>
+    <udaj ID="1354870425">
+      <hod>237.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870536">
+      <hod>234.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870647">
+      <hod>235.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870758">
+      <hod>236.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870850">
+      <hod>235.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870861">
+      <hod>252.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870872">
+      <hod>251.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870883">
+      <hod>251.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870894">
+      <hod>251.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870426">
+      <hod>251.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p16</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|105|CZ</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870659">
+      <hod>240.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870670">
+      <hod>237.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870681">
+      <hod>238.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870692">
+      <hod>237.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870703">
+      <hod>238.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870714">
+      <hod>257.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870725">
+      <hod>255.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870736">
+      <hod>255.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870747">
+      <hod>257.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870759">
+      <hod>256.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p15</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870863">
+      <hod>218.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870864">
+      <hod>212.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870865">
+      <hod>222</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870866">
+      <hod>227</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870867">
+      <hod>219.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870868">
+      <hod>246.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870869">
+      <hod>247.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870870">
+      <hod>247.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870871">
+      <hod>246.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870873">
+      <hod>247.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p1</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ010</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870896">
+      <hod>256.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870897">
+      <hod>249.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870898">
+      <hod>252.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870899">
+      <hod>255.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870900">
+      <hod>253.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870901">
+      <hod>248</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870902">
+      <hod>247.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870903">
+      <hod>247.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870904">
+      <hod>251.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870427">
+      <hod>248.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p2</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ020</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870450">
+      <hod>239.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870451">
+      <hod>232.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870452">
+      <hod>236.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870453">
+      <hod>234.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870454">
+      <hod>235.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870455">
+      <hod>279.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870456">
+      <hod>279.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870457">
+      <hod>275.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870458">
+      <hod>276.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870460">
+      <hod>277.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p3</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ031</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870483">
+      <hod>237.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870484">
+      <hod>242.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870485">
+      <hod>243.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870486">
+      <hod>255.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870487">
+      <hod>244.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870488">
+      <hod>254.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870489">
+      <hod>253</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870490">
+      <hod>247.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870491">
+      <hod>248.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870493">
+      <hod>251</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p4</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ032</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870516">
+      <hod>200.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870517">
+      <hod>198</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870518">
+      <hod>202.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870519">
+      <hod>202.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870520">
+      <hod>201</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870521">
+      <hod>220.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870522">
+      <hod>226.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870523">
+      <hod>221</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870524">
+      <hod>219.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870526">
+      <hod>221.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p5</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ041</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870550">
+      <hod>234.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870551">
+      <hod>242.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870552">
+      <hod>232</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870553">
+      <hod>218.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870554">
+      <hod>231.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870555">
+      <hod>293.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870556">
+      <hod>288</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870557">
+      <hod>288.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870558">
+      <hod>294</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870560">
+      <hod>290.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p6</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ042</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870583">
+      <hod>237.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870584">
+      <hod>240.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870585">
+      <hod>235.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870586">
+      <hod>246.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870587">
+      <hod>239.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870588">
+      <hod>254.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870589">
+      <hod>249.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870590">
+      <hod>255.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870591">
+      <hod>246.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870593">
+      <hod>251.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p7</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ051</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870616">
+      <hod>246.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870617">
+      <hod>236.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870618">
+      <hod>236.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870619">
+      <hod>230.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870620">
+      <hod>237.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870621">
+      <hod>274.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870622">
+      <hod>274.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870623">
+      <hod>272.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870624">
+      <hod>275.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870626">
+      <hod>274.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p8</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ052</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870650">
+      <hod>223.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870651">
+      <hod>228.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870652">
+      <hod>227.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870653">
+      <hod>220.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870654">
+      <hod>225</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870655">
+      <hod>250.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870656">
+      <hod>242.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870657">
+      <hod>250.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870658">
+      <hod>246.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870660">
+      <hod>247.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p9</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ053</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870683">
+      <hod>227.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870684">
+      <hod>231</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870685">
+      <hod>226.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870686">
+      <hod>218.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870687">
+      <hod>225.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870688">
+      <hod>268</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870689">
+      <hod>269.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870690">
+      <hod>278.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870691">
+      <hod>268.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870693">
+      <hod>271.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p10</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ063</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870716">
+      <hod>240.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870717">
+      <hod>235.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870718">
+      <hod>234.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870719">
+      <hod>228.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870720">
+      <hod>234.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870721">
+      <hod>257.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870722">
+      <hod>254.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870723">
+      <hod>254.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870724">
+      <hod>259.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870726">
+      <hod>256.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p11</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ064</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870749">
+      <hod>238.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870750">
+      <hod>231.2</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870751">
+      <hod>236.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870752">
+      <hod>237.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870753">
+      <hod>235.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870754">
+      <hod>247.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870755">
+      <hod>250.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870756">
+      <hod>243.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870757">
+      <hod>249.9</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870760">
+      <hod>247.7</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p12</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ071</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870783">
+      <hod>219.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870784">
+      <hod>223.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870785">
+      <hod>233.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870786">
+      <hod>232</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870787">
+      <hod>227.1</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870788">
+      <hod>259.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870789">
+      <hod>249.4</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870790">
+      <hod>253.8</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870791">
+      <hod>255.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870793">
+      <hod>254.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p13</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ072</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870816">
+      <hod>227.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870817">
+      <hod>224.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870818">
+      <hod>220.6</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870819">
+      <hod>220.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870820">
+      <hod>223.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v3</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870821">
+      <hod>250.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c1</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870822">
+      <hod>249.5</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c2</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870823">
+      <hod>249.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c3</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870824">
+      <hod>252</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c4</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+    <udaj ID="1354870826">
+      <hod>250.3</hod>
+      <uka>u1</uka>
+      <vec>v1</vec>
+      <vec>v2</vec>
+      <vec>v4</vec>
+      <vec>v5</vec>
+      <vec>v6</vec>
+      <mj>m1</mj>
+      <uze>p14</uze>
+      <cas>c5</cas>
+      <zdr>z1</zdr>
+      <datOd>2024-12-31T09:00:00</datOd>
+      <datDo>2065-12-31T00:00:00</datDo>
+      <atr ID="a1">VUZEMI|108|CZ080</atr>
+      <typ>N</typ>
+      <casDB>2024-12-11T14:01:06</casDB>
+    </udaj>
+  </data>
+</vdbData>
