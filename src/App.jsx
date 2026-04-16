@@ -1,15 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import * as XLSX from 'xlsx';
-import {
-  AlertCircle,
-  BookOpen,
-  Building,
-  Calculator,
-  Info,
-  Scale,
-  TrendingUp,
-  Users
-} from 'lucide-react';
+import { AlertCircle, BookOpen, Building, Calculator, Scale, TrendingUp, Users } from 'lucide-react';
 
 const MUNICIPALITY_OPTIONS = [
   { value: 'do1999', label: 'Do 1 999 obyvatel', landCoefficient: 1.2, datasetLabel: 'Do 2 000' },
@@ -692,7 +683,7 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 p-4 md:p-8 font-sans">
+    <div className="min-h-screen bg-stone-100 text-slate-800 p-4 md:p-8 font-sans">
       <div className="max-w-6xl mx-auto space-y-6">
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
           <div className="flex items-center gap-4 mb-2">
@@ -701,7 +692,6 @@ function App() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-slate-900">Vypocet chraneneho obydli v insolvenci</h1>
-              <p className="text-slate-500">Automaticke nacitani cen a indexu z XML a 0140162508.xlsx, velikosti domu z 0140162502.xlsx a bytu z 0140162507.xlsx</p>
             </div>
           </div>
         </div>
@@ -773,18 +763,6 @@ function App() {
                     ))}
                   </select>
                 </div>
-              </div>
-
-              <div className="mt-4 p-4 bg-blue-50 rounded-xl border border-blue-200 text-sm text-blue-900">
-                {datasets.loading ? 'Nacitam XML a XLSX exporty CSU...' : datasets.error || 'Ceny a indexy se predvyplnuji automaticky.'}
-                {' '}
-                {houseSizeWorkbook.loaded
-                  ? `Soubor ${houseSizeWorkbook.fileName} byl nacten pro okresni, krajske a republikove velikosti domu.`
-                  : houseSizeWorkbook.error}
-                {' '}
-                {apartmentSizeWorkbook.loaded
-                  ? `Soubor ${apartmentSizeWorkbook.fileName} byl nacten pro okresni, krajske a republikove velikosti bytu.`
-                  : apartmentSizeWorkbook.error}
               </div>
             </div>
 
@@ -935,13 +913,6 @@ function App() {
                 <div className="pt-6 mt-6 border-t border-blue-200">
                   <p className="text-sm font-medium text-blue-800 mb-2">Hodnota chraneneho obydli</p>
                   <div className="text-4xl font-extrabold text-blue-900 tracking-tight">{formatCurrency(calculation.protectedValue)}</div>
-                  <div className="flex items-start gap-2 mt-4 p-3 bg-white/70 rounded-lg text-xs text-blue-800">
-                    <Info size={16} className="mt-0.5 flex-shrink-0" />
-                    <p>
-                      Soubor 0140162502.xlsx se pouziva pro okresni, krajske a republikove velikosti rodinnych domu.
-                      Soubor 0140162507.xlsx se pouziva pro okresni, krajske a republikove velikosti bytu.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
