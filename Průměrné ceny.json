@@ -1,0 +1,133 @@
+{
+  "version" : "2.0",
+  "class" : "dataset",
+  "href" : "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/uzivatelske/33c89c2e-cd9c-4e2c-afbf-3118becda449",
+  "label" : "CEN04T01_Průměrné kupní ceny nemovitostí a indexy cen nemovitostí",
+  "source" : "DataStat – databáze ČSÚ",
+  "note" : [ "Uživatelem nastavený výběr.", null ],
+  "updated" : "2026-04-15T17:02:57.310112Z",
+  "id" : [ "UZ02HN", "IndicatorType", "CasR" ],
+  "size" : [ 1, 6, 6 ],
+  "role" : {
+    "geo" : [ "UZ02HN" ],
+    "metric" : [ "IndicatorType" ],
+    "time" : [ "CasR" ]
+  },
+  "dimension" : {
+    "UZ02HN" : {
+      "label" : "Území",
+      "category" : {
+        "index" : {
+          "CZ" : 0
+        },
+        "label" : {
+          "CZ" : "Česko"
+        },
+        "note" : [ null ]
+      }
+    },
+    "IndicatorType" : {
+      "label" : "Ukazatel",
+      "category" : {
+        "index" : {
+          "7432J01" : 0,
+          "7432J02" : 1,
+          "6144J01" : 2,
+          "6144J02" : 3,
+          "6144J03" : 4,
+          "6144J04" : 5
+        },
+        "label" : {
+          "7432J01" : "Průměrné kupní ceny rodinných domů (Kč za m2)",
+          "7432J02" : "Průměrné kupní ceny bytů (Kč za m2)",
+          "6144J01" : "Indexy cen rodinných domů (meziroční index)",
+          "6144J02" : "Indexy cen bytů (meziroční index)",
+          "6144J03" : "Indexy cen rodinných domů (průměr 2015 = 100)",
+          "6144J04" : "Indexy cen bytů (průměr 2015 = 100)"
+        },
+        "note" : [ "" ],
+        "unit" : {
+          "6144J04" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "6144J03" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "6144J02" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "6144J01" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "7432J01" : {
+            "decimals" : 0,
+            "symbol" : "",
+            "position" : ""
+          },
+          "6144J06" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "6144J05" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "7432J02" : {
+            "decimals" : 0,
+            "symbol" : "",
+            "position" : ""
+          }
+        }
+      }
+    },
+    "CasR" : {
+      "label" : "Roky",
+      "category" : {
+        "index" : {
+          "2019" : 0,
+          "2020" : 1,
+          "2021" : 2,
+          "2022" : 3,
+          "2023" : 4,
+          "2024" : 5
+        },
+        "label" : {
+          "2019" : "2019",
+          "2020" : "2020",
+          "2021" : "2021",
+          "2022" : "2022",
+          "2023" : "2023",
+          "2024" : "2024"
+        },
+        "note" : [ null ]
+      }
+    }
+  },
+"value":[
+34513, 37244, 43044, 49782, 48320, 51867, 39306, 44082, 54461, 61742, 58641, 63521, 110.9, 114.5, 119.2, 111, 101, 101, 109.2, 113.5, 122.2, 116.3, 94.4, 106, 145.2, 166.3, 198.1, 220, 222.3, 224.6, 159.8, 181.4, 221.6, 257.7, 243.2, 257.7],
+"status":{
+  },
+"extension":{
+"published":
+[1, 1, 2, 2, 3, 3, 1, 1, 2, 2, 2, 3, 1, 1, 1, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 1, 1, 1, 2, 3],
+"publishedCode":{
+     "1" : "2024-01-05T08:00Z",
+     "2" : "2024-12-31T08:00Z",
+     "3" : "2025-12-31T08:00Z"
+  },
+"status":{
+    "label":{
+    }
+  }
+}
+}
